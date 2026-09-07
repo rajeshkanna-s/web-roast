@@ -20,3 +20,11 @@ Home, story, drink menu, category filters, quantity controls, calculated cart to
 Checkout runs in memory only. It does not process payments, send orders, or persist customer data. Tax is sample UI data. Marketing statistics and address come from the concept reference and are not verified business claims.
 
 Assets: public/assets/hero.png generated with built-in ImageGen using the supplied cup/comic/city art direction. menu-reference.jpg is the supplied reference, displayed within measured product photo bounds. Fonts load from Google Fonts. All project images live in this folder.
+
+## Expanded experience — September 2026
+
+Includes three additional deep-linked pages, new locally stored generated photography, and a real Three.js WebGL product viewer. Drag to orbit, use arrow keys to rotate, change finishes, reveal product layers, pause motion, zoom, and reset the view. Animation respects reduced-motion preferences; a photo fallback is shown when WebGL is unavailable. The models are original procedural design studies, not manufacturing CAD models.
+
+New pages: Brew Lab, Roastery, Brew Guide. New images: cafe, roastery, iced coffee. The brew guide includes an adjustable recipe calculator.
+
+Relative asset paths and hash navigation support GitHub Pages project subpaths. Build with `npm run build`; publish the contents of `dist/client` when ready. These changes have not been deployed by this task.

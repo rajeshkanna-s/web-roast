@@ -30,3 +30,7 @@ State: home, menu, pastry filter, populated cart, checkout, success, mobile navi
 This passes as a functional responsive interpretation, not a pixel-exact recreation. Decorative differences above are retained as follow-up fidelity work. No real orders, payments, backend or persistence.
 
 final result: passed
+
+## Expansion verification
+
+Production build passed. All four existing packaging/worker tests passed. Production CSS image paths resolve to existing files without root-relative URLs. Browser inspection confirmed a rendered WebGL model and no console errors. Material and exploded-view controls were exercised. Coffee studio and Solara collection were checked at 390px with no horizontal overflow; Solara new-expression filtering correctly shows three distinct watches. This verifies the local implementation; hosted GitHub Pages was not redeployed or rechecked.
