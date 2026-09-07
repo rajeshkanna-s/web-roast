@@ -4,7 +4,7 @@
 .product-image{height:auto!important;aspect-ratio:184 / 174;background-size:782.6087% auto;background-position-x:calc(5.55% + var(--col)*17.95%);background-position-y:48.12%;background-repeat:no-repeat}
 .product-image[style*="--row: 1"]{aspect-ratio:184 / 116;background-position-y:69.63%}
 .cart-item .product-image{background-size:782.6087% auto;align-self:center}
-.feature .product-image{height:auto!important}
+.feature .product-image{height:250px!important;width:85%!important;aspect-ratio:1 / 1!important;border-radius:50%!important;margin:10px auto 25px!important;background-size:750% auto!important;background-position-x:calc(5.2% + var(--col)*18%)!important;background-position-y:calc(48.6% + var(--row)*23.8%)!important}
 .hero:not(.story) h1{font-size:clamp(95px,12.3vw,185px);line-height:.91}
 .hero:not(.story){min-height:1020px}
 .hero-art img{max-height:none}
