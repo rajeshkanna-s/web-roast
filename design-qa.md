@@ -34,3 +34,7 @@ final result: passed
 ## Expansion verification
 
 Production build passed. All four existing packaging/worker tests passed. Production CSS image paths resolve to existing files without root-relative URLs. Browser inspection confirmed a rendered WebGL model and no console errors. Material and exploded-view controls were exercised. Coffee studio and Solara collection were checked at 390px with no horizontal overflow; Solara new-expression filtering correctly shows three distinct watches. This verifies the local implementation; hosted GitHub Pages was not redeployed or rechecked.
+
+## Single-page / live-time verification — 2026-09-08
+
+Both production builds and all eight existing worker/packaging checks passed. Both pages expose nine mounted scroll sections. Mobile coffee navigation to Drinks closes the menu, highlights Drinks, and positions the section 95px below the viewport top. No horizontal overflow at 390px. Browser console checks returned no errors on the updated previews.

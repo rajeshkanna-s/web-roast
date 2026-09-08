@@ -28,3 +28,7 @@ Includes three additional deep-linked pages, new locally stored generated photog
 New pages: Brew Lab, Roastery, Brew Guide. New images: cafe, roastery, iced coffee. The brew guide includes an adjustable recipe calculator.
 
 Relative asset paths and hash navigation support GitHub Pages project subpaths. Build with `npm run build`; publish the contents of `dist/client` when ready. These changes have not been deployed by this task.
+
+## Single-page scrolling update
+
+All nine sections stay mounted in one continuous page. Header navigation scrolls to section anchors, highlights the section currently in view, and closes the mobile menu after selection. Existing hash links still open the corresponding section. Reduced-motion preferences disable smooth scrolling.
